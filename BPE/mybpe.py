@@ -154,7 +154,7 @@ class SimpleBPE:
 if __name__ == "__main__":
     bpe = SimpleBPE()
 
-    # tokens = bpe.train("train.txt", 1000)
+    tokens = bpe.train("train.txt", 3000)
 
     # bpe.save("bpe_model")
     bpe.load("bpe_model")
